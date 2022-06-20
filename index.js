@@ -26,7 +26,7 @@ function catchNum () {
    resp.append(arrayNum);
    
    suma.textContent = 'Suma de los numeros ingresados es: ';
-   totalSuma = arrayNum.reduce((acum, element)  => acum  + element, 0);
+   let totalSuma = arrayNum.reduce((acum, element)  => acum  + element, 0);
    // console.log(totalSuma);
    suma.append(totalSuma);
 
